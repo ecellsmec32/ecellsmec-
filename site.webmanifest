@@ -1,0 +1,40 @@
+{
+    "name": "E-Cell SMEC - Entrepreneurship Cell",
+    "short_name": "E-Cell SMEC",
+    "description": "The Entrepreneurship Cell of St. Martin's Engineering College. Discover innovation, attend events, and connect with aspiring entrepreneurs.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#231e0f",
+    "theme_color": "#f9bc06",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+            "src": "/favicon-16x16.png",
+            "sizes": "16x16",
+            "type": "image/png"
+        },
+        {
+            "src": "/favicon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png"
+        },
+        {
+            "src": "/apple-touch-icon.png",
+            "sizes": "180x180",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "categories": ["education", "business", "productivity"],
+    "lang": "en",
+    "dir": "ltr"
+}

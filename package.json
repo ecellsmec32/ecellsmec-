@@ -1,0 +1,41 @@
+{
+  "name": "ecell-smec-website",
+  "version": "1.0.0",
+  "description": "Official website for E-Cell SMEC - The Entrepreneurship Cell of St. Martin's Engineering College",
+  "main": "index.html",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build process needed'",
+    "test": "echo 'No tests specified'",
+    "lint": "echo 'No linting configured'"
+  },
+  "keywords": [
+    "ecell",
+    "smec",
+    "entrepreneurship",
+    "college",
+    "website",
+    "static"
+  ],
+  "author": "E-Cell SMEC Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ecell-smec/website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecell-smec/website/issues"
+  },
+  "homepage": "https://ecell-smec.com",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
