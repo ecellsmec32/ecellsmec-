@@ -1,15 +1,9 @@
 {
-  "version": 2,
-  "name": "ecell-blog-website",
-  "builds": [
-    {
-      "src": "**/*",
-      "use": "@vercel/static"
-    }
-  ],
+  "cleanUrls": true,
+  "trailingSlash": false,
   "headers": [
     {
-      "source": "/(.*\\.(jpg|jpeg|png|gif|ico|svg|webp|avif|webmanifest|xml|txt|css|js))",
+      "source": "/:path*.(jpg|jpeg|png|gif|ico|svg|webp|avif)",
       "headers": [
         {
           "key": "Cache-Control",
@@ -18,7 +12,16 @@
       ]
     },
     {
-      "source": "/(.*\\.html)",
+      "source": "/:path*.(webmanifest|xml|txt|css|js)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/:path*.html",
       "headers": [
         {
           "key": "Cache-Control",
@@ -35,7 +38,5 @@
         }
       ]
     }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false
+  ]
 }
